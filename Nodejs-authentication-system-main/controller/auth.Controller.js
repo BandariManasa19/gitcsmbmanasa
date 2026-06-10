@@ -72,7 +72,7 @@ module.exports.login = async (req, res, next) => {
         );
 
         res.status(200).json({
-            message: "Login successful by Bandarimanasa",
+            message: "Login successful by BandarimanasaChinni",
             token: token,
             user: exUser
         });
