@@ -26,7 +26,7 @@ module.exports.signup = async (req, res, next) => {
         );
 
         res.status(201).json({
-            message: "User created successfully"
+            message: "User created successfully by manasa"
         });
 
     } catch (error) {
@@ -72,7 +72,7 @@ module.exports.login = async (req, res, next) => {
         );
 
         res.status(200).json({
-            message: "Login successful",
+            message: "Login successful by manasa",
             token: token,
             user: exUser
         });

@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 });
 
 app.use((req, res, next) => {
-    req.college = "CMR Technical Campus";
+    req.college = "CMR Technical Campus,BTECH Engineering College";
     next();
 });
 
